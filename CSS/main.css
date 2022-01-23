@@ -222,3 +222,32 @@ h2 {
     overflow: auto;
   }
 }
+
+
+/* ANIMACIONES, TRANSICIONES Y GRADIENTES */
+/* En realidad, ya los había trabajado asi que pase algunos aca abajo solo para borrar y cambiar de rama. */
+
+.logo:hover {
+    transform: scale(1.1, 1.1);
+    border: solid #987284;
+  }
+  
+  .logo:focus {
+    height: 110%;
+    width: 110%;
+  }
+  
+  img:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .header__menu li a:hover {
+    border: solid #261447;
+    transform: scale(1.1, 1.1);
+    position: relative;
+  }
+  
+  .button:hover {
+    transform: scale(1.2, 1.2);
+  }
+  
