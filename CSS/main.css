@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+/* PALETA COLORES:
+    987284 MOUNTBATTEN PINK
+    313638 ONYX
+    D0E1D4 HONEYDEW
+    d9d2b6 BONE
+    261447 RUSSIAN VIOLET */
+
+.index__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.6fr 2.1fr 0.3fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+  align-content: stretch;
+}
+
+.header {
+  /* background-color: #313638; */
+  background-image: linear-gradient(to bottom, #313638, #261447);
+  grid-area: header;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  height: 15.741789354473386vh;
+  width: 25.8272800645682vw;
+  transition: all;
+}
+
+.header__menu {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: #313638; */
+  background-image: linear-gradient(to top, #261447, #313638);
+  align-items: center;
+  justify-content: center;
+}
+
+.header__menu li:hover {
+  background-color: #987284;
+}
+
+.header__menu li a {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 5vh;
+  display: inline-block;
+  padding: 0.5vh 0.5vw;
+  text-decoration: none;
+  margin: 0.5vh 0.5vw;
+  color: #d9d2b6;
+  border: #d9d2b6 groove thick;
+  position: relative;
+  transition: all;
+}
+
+.main {
+  background-image: radial-gradient(#261447, #d9d2b6);
+  grid-area: main;
+}
+
+.main__div {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  background-image: radial-gradient(#261447, #d9d2b6);
+  align-items: center;
+}
+
+.main__p {
+  display: block;
+  padding: 1vh 1vw;
+  border: solid 3px #d9d2b6;
+  background-color: #987284;
+  width: 60vw;
+  margin: 1vh 1vw;
+}
+
+.footer {
+  background-color: #261447;
+  grid-area: footer;
+  position: sticky;
+}
+
+.footer__copy {
+  display: flex;
+  justify-content: center;
+  color: #d0e1d4;
+  border: solid 0.5vh #313638;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.button {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  color: #261447;
+  display: block;
+  text-align: center;
+  text-decoration: solid;
+  font-weight: bold;
+}
+
+h2 {
+  color: #261447;
+  display: block;
+  text-align: center;
+  text-decoration: solid;
+  font-weight: bold;
+}
+
+.img {
+  display: block;
+  margin: 1vh 1vw;
+  padding: 1vh 1vw;
+  border: solid 3px #d9d2b6;
+  background-color: #987284;
+  height: 50vh;
+  width: 60vw;
+  position: relative;
+}
+
+.icon {
+  display: block;
+  margin: 1vh 1vw;
+  padding: 1vh 1vw;
+  border: solid 3px #d9d2b6;
+  background-color: #987284;
+  height: 7.5vh;
+  width: 9vw;
+  position: relative;
+}
+
+.music__main {
+  background-color: #d9d2b6;
+}
+
+.music__frames {
+  display: flex;
+  margin: 0.5vh 0.5vw;
+  padding: 0.5vh 0.5vw;
+  border: solid 3px #d9d2b6;
+  background-color: #987284;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.music__yt {
+  font-size: 20px;
+  background-color: #987284;
+}
+
+.music__spot {
+  font-size: 20px;
+  background-color: #987284;
+}
+
+.form {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #987284;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form__p {
+  text-align: center;
+  text-decoration: none;
+}
+
+/* MEDIA QUERYS */
+/* MOBILE LAST */
+/* como utilice medidas relativas (vh y vw), hubo poco que modificar con media querys */
+
+@media (max-width: 460px) {
+  .header__menu {
+    flex-direction: column;
+  }
+  .header__menu li a {
+    font-size: 20px;
+  }
+  .main__div {
+    font-size: 18px;
+  }
+  .music__yt {
+    overflow: auto;
+  }
+  .music__spot {
+    overflow: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__menu li a {
+    font-size: 18px;
+  }
+  .main__div {
+    font-size: 15px;
+  }
+  .music__yt {
+    overflow: auto;
+  }
+  .music__spot {
+    overflow: auto;
+  }
+}
