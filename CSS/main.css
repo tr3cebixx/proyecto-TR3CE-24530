@@ -2,252 +2,204 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "PT Sans Narrow", sans-serif;
-}
-/* PALETA COLORES:
-    987284 MOUNTBATTEN PINK
-    313638 ONYX
-    D0E1D4 HONEYDEW
-    d9d2b6 BONE
-    261447 RUSSIAN VIOLET */
+  font-family: "PT Sans Narrow", sans-serif; }
 
-.index__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.6fr 2.1fr 0.3fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    "header header header"
-    "main main main"
-    "footer footer footer";
-  align-content: stretch;
-}
+body {
+  background-image: linear-gradient(to top, #261447, #000000); }
 
-.header {
-  /* background-color: #313638; */
-  background-image: linear-gradient(to bottom, #313638, #261447);
-  grid-area: header;
-}
-
-.logo {
-  display: block;
-  margin: auto;
-  height: 15.741789354473386vh;
-  width: 25.8272800645682vw;
-  transition: all;
-}
-
-.header__menu {
-  display: flex;
-  list-style-type: none;
-  flex-direction: row;
-  flex-wrap: wrap;
-  /* background-color: #313638; */
-  background-image: linear-gradient(to top, #261447, #313638);
-  align-items: center;
-  justify-content: center;
-}
-
-.header__menu li:hover {
-  background-color: #987284;
-}
-
-.header__menu li a {
-  font-size: 25px;
-  font-weight: bold;
-  line-height: 5vh;
-  display: inline-block;
-  padding: 0.5vh 0.5vw;
-  text-decoration: none;
-  margin: 0.5vh 0.5vw;
-  color: #d9d2b6;
-  border: #d9d2b6 groove thick;
-  position: relative;
-  transition: all;
-}
-
-.main {
-  background-image: radial-gradient(#261447, #d9d2b6);
-  grid-area: main;
-}
-
-.main__div {
-  font-size: 20px;
+.form {
+  font-size: 1.5em;
   display: flex;
   flex-direction: column;
-  background-image: radial-gradient(#261447, #d9d2b6);
+  background-image: linear-gradient(to top, #261447, #000000);
   align-items: center;
-}
-
-.main__p {
-  display: block;
-  padding: 1vh 1vw;
-  border: solid 3px #d9d2b6;
-  background-color: #987284;
-  width: 60vw;
-  margin: 1vh 1vw;
-}
-
-.footer {
-  background-color: #261447;
-  grid-area: footer;
-  position: sticky;
-}
-
-.footer__copy {
-  display: flex;
-  justify-content: center;
-  color: #d0e1d4;
-  border: solid 0.5vh #313638;
-  font-weight: bold;
-  overflow: hidden;
-}
-
-.button {
-  display: block;
-  margin: auto;
-}
-
-h1 {
-  color: #261447;
-  display: block;
-  text-align: center;
-  text-decoration: solid;
-  font-weight: bold;
-}
-
-h2 {
-  color: #261447;
-  display: block;
-  text-align: center;
-  text-decoration: solid;
-  font-weight: bold;
-}
+  flex-wrap: wrap;
+  color: wheat; }
 
 .img {
   display: block;
   margin: 1vh 1vw;
   padding: 1vh 1vw;
   border: solid 3px #d9d2b6;
-  background-color: #987284;
+  background-image: linear-gradient(to top, #000000, #ffffff);
   height: 50vh;
   width: 60vw;
   position: relative;
-}
+  animation-name: remolino;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 3.5s;
+  animation-delay: 7s; }
+  .img:hover {
+    transform: scale(1.1, 1.1); }
+
+@keyframes remolino {
+  10% {
+    transform: rotate(36deg); }
+  20% {
+    transform: rotate(72deg); }
+  30% {
+    transform: rotate(108deg); }
+  40% {
+    transform: rotate(144deg); }
+  50% {
+    transform: rotate(180deg);
+    background-image: linear-gradient(to top, #ffffff, #000000); }
+  60% {
+    transform: rotate(216deg); }
+  70% {
+    transform: rotate(252deg); }
+  80% {
+    transform: rotate(288deg); }
+  90% {
+    transform: rotate(324deg); }
+  100% {
+    transform: rotate(360deg); } }
 
 .icon {
-  display: block;
-  margin: 1vh 1vw;
-  padding: 1vh 1vw;
-  border: solid 3px #d9d2b6;
-  background-color: #987284;
-  height: 7.5vh;
-  width: 9vw;
-  position: relative;
-}
+  display: inline; }
 
-.music__main {
-  background-color: #d9d2b6;
-}
+.button {
+  display: block;
+  margin: auto; }
+  .button:hover {
+    transform: scale(1.2, 1.2); }
+
+.fa-whatsapp-square {
+  color: #25D366;
+  transition: all 2s; }
+  .fa-whatsapp-square:hover {
+    transform: scale(1.5) translate(3em, 0); }
+
+.fa-instagram-square {
+  color: #5851D8;
+  transition: all 2s; }
+  .fa-instagram-square:hover {
+    transform: scale(1.5) translate(2em, 0); }
+
+.fa-mailchimp {
+  color: #ff0000ab;
+  transition: all 2s; }
+  .fa-mailchimp:hover {
+    transform: scale(1.5) translate(3em, 0); }
+
+.fa-youtube-square {
+  color: #ff0000;
+  transition: all 2s; }
+  .fa-youtube-square:hover {
+    transform: scale(1.5) translate(1.6em, 0); }
+
+.fa-spotify {
+  color: #1DB954;
+  transition: all 2s; }
+  .fa-spotify:hover {
+    transform: scale(1.5) translate(1.6em, 0); }
+
+.main__p {
+  display: inline;
+  color: #d9d2b6;
+  font-style: oblique;
+  text-align: center; }
+
+h1 {
+  color: #261447;
+  display: block;
+  text-align: center;
+  text-decoration: solid;
+  font-weight: bold; }
+
+h2 {
+  color: #261447;
+  display: block;
+  text-align: center;
+  text-decoration: solid;
+  font-weight: bold; }
+
+.header {
+  background-image: linear-gradient(to bottom, #ffffff, #000000); }
+  .header .container .row .header__logo {
+    max-width: 6rem;
+    transition: all 2s; }
+    .header .container .row .header__logo:hover {
+      transform: translate(100vw, 0vh); }
+  .header .header__nav .header__menu {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to top, #261447, #000000);
+    align-items: center;
+    justify-content: center; }
+    .header .header__nav .header__menu li:hover {
+      background-color: #d9d2b6; }
+    .header .header__nav .header__menu li a {
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 5vh;
+      display: inline-block;
+      padding: 0.5vh 0.5vw;
+      text-decoration: none;
+      margin: 0.5vh 0.5vw;
+      color: #ffffff;
+      border: #d9d2b6 groove thick;
+      position: relative;
+      transition: all; }
+
+.footer {
+  background-image: linear-gradient(to top, #ffffff, #000000);
+  position: sticky; }
+  .footer .footer__copy {
+    display: flex;
+    justify-content: center;
+    color: #d0e1d4;
+    border: solid 0.5vh #313638;
+    font-weight: bold;
+    overflow: hidden; }
+
+.form__p {
+  text-align: center;
+  text-decoration: none; }
+
+.main__div {
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  background-image: radial-gradient(#000000, #ffffff);
+  align-items: center;
+  padding: 1rem; }
 
 .music__frames {
   display: flex;
   margin: 0.5vh 0.5vw;
   padding: 0.5vh 0.5vw;
   border: solid 3px #d9d2b6;
-  background-color: #987284;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
-}
-
-.music__yt {
-  font-size: 20px;
-  background-color: #987284;
-}
-
-.music__spot {
-  font-size: 20px;
-  background-color: #987284;
-}
-
-.form {
-  font-size: 20px;
-  display: flex;
-  flex-direction: column;
-  background-color: #987284;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.form__p {
-  text-align: center;
-  text-decoration: none;
-}
-
-/* MEDIA QUERYS */
-/* MOBILE LAST */
-/* como utilice medidas relativas (vh y vw), hubo poco que modificar con media querys */
+  justify-content: space-between; }
+  .music__frames .music__yt {
+    background-color: #ff0000; }
+  .music__frames .music__spot {
+    background-color: #1DB954; }
 
 @media (max-width: 460px) {
   .header__menu {
-    flex-direction: column;
-  }
+    flex-direction: column; }
   .header__menu li a {
-    font-size: 20px;
-  }
+    font-size: 20px; }
   .main__div {
-    font-size: 18px;
-  }
+    font-size: 18px; }
   .music__yt {
-    overflow: auto;
-  }
+    overflow: auto; }
   .music__spot {
-    overflow: auto;
-  }
-}
+    overflow: auto; } }
 
 @media (max-width: 320px) {
   .header__menu li a {
-    font-size: 18px;
-  }
+    font-size: 18px; }
   .main__div {
-    font-size: 15px;
-  }
+    font-size: 15px; }
   .music__yt {
-    overflow: auto;
-  }
+    overflow: auto; }
   .music__spot {
-    overflow: auto;
-  }
-}
-
-
-/* ANIMACIONES, TRANSICIONES Y GRADIENTES */
-/* En realidad, ya los había trabajado asi que pase algunos aca abajo solo para borrar y cambiar de rama. */
-
-.logo:hover {
-    transform: scale(1.1, 1.1);
-    border: solid #987284;
-  }
-  
-  .logo:focus {
-    height: 110%;
-    width: 110%;
-  }
-  
-  img:hover {
-    transform: scale(1.1, 1.1);
-  }
-  
-  .header__menu li a:hover {
-    border: solid #261447;
-    transform: scale(1.1, 1.1);
-    position: relative;
-  }
-  
-  .button:hover {
-    transform: scale(1.2, 1.2);
-  }
-  
+    overflow: auto; } }

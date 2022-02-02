@@ -1,0 +1,39 @@
+@media (max-width: 460px) {
+    .header__menu {
+        flex-direction: column;
+    }
+
+    .header__menu li a {
+        font-size: 20px;
+    }
+
+    .main__div {
+        font-size: 18px;
+    }
+
+    .music__yt {
+        overflow: auto;
+    }
+
+    .music__spot {
+        overflow: auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__menu li a {
+        font-size: 18px;
+    }
+
+    .main__div {
+        font-size: 15px;
+    }
+
+    .music__yt {
+        overflow: auto;
+    }
+
+    .music__spot {
+        overflow: auto;
+    }
+}
