@@ -1,6 +1,5 @@
 //MAPA
-$color__redes: (
-    redes__wp: #25D366,
+$color__redes: (redes__wp: #25D366,
     redes__ig: #5851D8,
     redes__email: #ff0000ab,
     redes__yt: #ff0000,
@@ -8,8 +7,9 @@ $color__redes: (
 );
 
 //BUCLE
-@each $app, $color in $color__redes{
-    .#{$app}{
+@each $app,
+$color in $color__redes {
+    .#{$app} {
         color: $color;
         transition: all 2s;
 
