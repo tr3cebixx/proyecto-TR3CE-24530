@@ -1,0 +1,15 @@
+1- Apliqué las siguientes keywords en cada documento html:
+index: "tr3ce, musica, trap, rap, hip hop, shows, biografia, blowap";
+iniciar-sesion: "tr3ce, iniciar sesión, e-mail, contraseña, registro, blowap";
+musica: "tr3ce, música, videoclip, glock, snitch, parsel, youtube, spotify, blowap";
+registrarse: "tr3ce, registro, nombre, e-mail, género, contraseña, términos, condiciones, blowap".
+
+2- Todos los títulos, tanto <title> como <h1>, <h2> y <h3>, tienen relación directa con la idea de la página.
+
+3- Todos los html tienen su descripción <meta>:
+index: "Bienvenidos a TR3CE (Bless up!). Qué es TR3CE? El único artista que te puede enseñar a hablar en parsel. --tr3cebixx";
+iniciar-sesion: "Qué estas esperando para iniciar sesión, una invitación personalizada? Dale flaco.";
+musica: "Podés acceder al material mas nuevo de TR3CE ingresando aqui, no nos responsabilizamos por ser tu nuevo ringtone."
+registrarse: "Acá vas a poder registrarte para recibir al día todas las noticias relacionadas a TR3CE."
+
+4- no entendi la parte de "encabezado" a que se refieren ¿?¿?¿¿???¿

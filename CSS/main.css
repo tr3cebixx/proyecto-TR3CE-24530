@@ -56,8 +56,13 @@ body {
   100% {
     transform: rotate(360deg); } }
 
-.icon {
-  display: inline; }
+.icons {
+  display: flex;
+  background-image: linear-gradient(to top, #625986, #000000);
+  text-align: center;
+  padding-bottom: 1vh;
+  width: 100vw;
+  flex-direction: column; }
 
 .button {
   display: block;
@@ -72,14 +77,24 @@ body {
   text-align: center; }
 
 h1 {
-  color: #261447;
+  color: #6737c2;
+  font-size: 3rem;
   display: block;
   text-align: center;
   text-decoration: solid;
   font-weight: bold; }
 
 h2 {
-  color: #261447;
+  color: #6475b4;
+  font-size: 2.5rem;
+  display: block;
+  text-align: center;
+  text-decoration: solid;
+  font-weight: bold; }
+
+h3 {
+  color: #625986;
+  font-size: 2rem;
   display: block;
   text-align: center;
   text-decoration: solid;
@@ -178,28 +193,28 @@ h2 {
   color: #25D366;
   transition: all 2s; }
   .redes__wp:hover {
-    transform: scale(1.5) translate(2em, 0); }
+    transform: scale(1.5) translate(0, 2em); }
 
 .redes__ig {
   color: #5851D8;
   transition: all 2s; }
   .redes__ig:hover {
-    transform: scale(1.5) translate(2em, 0); }
+    transform: scale(1.5) translate(0, 2em); }
 
 .redes__email {
   color: #ff0000ab;
   transition: all 2s; }
   .redes__email:hover {
-    transform: scale(1.5) translate(2em, 0); }
+    transform: scale(1.5) translate(0, 2em); }
 
 .redes__yt {
   color: #ff0000;
   transition: all 2s; }
   .redes__yt:hover {
-    transform: scale(1.5) translate(2em, 0); }
+    transform: scale(1.5) translate(0, 2em); }
 
 .redes__spot {
   color: #1DB954;
   transition: all 2s; }
   .redes__spot:hover {
-    transform: scale(1.5) translate(2em, 0); }
+    transform: scale(1.5) translate(0, 2em); }

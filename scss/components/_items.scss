@@ -72,15 +72,18 @@
     }
 }
 
-.icon {
-    display: inline;
-
+.icons {
+    display: flex;
+    background-image: linear-gradient(to top, #625986, #000000);
+    text-align: center;
+    padding-bottom: 1vh;
+    width: 100vw;
+    flex-direction: column;
 }
 
 .button {
     display: block;
     margin: auto;
-
     &:hover {
         transform: scale(1.2, 1.2);
     }
