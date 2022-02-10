@@ -7,7 +7,7 @@
 
 body {
     background-image: linear-gradient(to top, #261447, #000000);
-    height: 80vh;
+    height: calc(100vh - 15vh - 5vh);
 }
 
 @import './components/items';
