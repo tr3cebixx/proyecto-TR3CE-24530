@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to top, #261447, #000000);
+}
+
+@import './components/items';
+@import './components/txt';
+@import './components/header';
+@import './components/footer';
+@import './components/form';
+@import './sections/index';
+@import './sections/musica';
+@import './components/mediaquery'

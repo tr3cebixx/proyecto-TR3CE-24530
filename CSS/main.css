@@ -26,9 +26,9 @@ body {
   width: 60vw;
   position: relative;
   animation-name: remolino;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 3.5s;
+  animation-duration: 2s;
   animation-delay: 7s; }
   .img:hover {
     transform: scale(1.1, 1.1); }
