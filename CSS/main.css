@@ -65,36 +65,6 @@ body {
   .button:hover {
     transform: scale(1.2, 1.2); }
 
-.fa-whatsapp-square {
-  color: #25D366;
-  transition: all 2s; }
-  .fa-whatsapp-square:hover {
-    transform: scale(1.5) translate(3em, 0); }
-
-.fa-instagram-square {
-  color: #5851D8;
-  transition: all 2s; }
-  .fa-instagram-square:hover {
-    transform: scale(1.5) translate(2em, 0); }
-
-.fa-mailchimp {
-  color: #ff0000ab;
-  transition: all 2s; }
-  .fa-mailchimp:hover {
-    transform: scale(1.5) translate(3em, 0); }
-
-.fa-youtube-square {
-  color: #ff0000;
-  transition: all 2s; }
-  .fa-youtube-square:hover {
-    transform: scale(1.5) translate(1.6em, 0); }
-
-.fa-spotify {
-  color: #1DB954;
-  transition: all 2s; }
-  .fa-spotify:hover {
-    transform: scale(1.5) translate(1.6em, 0); }
-
 .main__p {
   display: inline;
   color: #d9d2b6;
@@ -203,3 +173,33 @@ h2 {
     overflow: auto; }
   .music__spot {
     overflow: auto; } }
+
+.redes__wp {
+  color: #25D366;
+  transition: all 2s; }
+  .redes__wp:hover {
+    transform: scale(1.5) translate(2em, 0); }
+
+.redes__ig {
+  color: #5851D8;
+  transition: all 2s; }
+  .redes__ig:hover {
+    transform: scale(1.5) translate(2em, 0); }
+
+.redes__email {
+  color: #ff0000ab;
+  transition: all 2s; }
+  .redes__email:hover {
+    transform: scale(1.5) translate(2em, 0); }
+
+.redes__yt {
+  color: #ff0000;
+  transition: all 2s; }
+  .redes__yt:hover {
+    transform: scale(1.5) translate(2em, 0); }
+
+.redes__spot {
+  color: #1DB954;
+  transition: all 2s; }
+  .redes__spot:hover {
+    transform: scale(1.5) translate(2em, 0); }
