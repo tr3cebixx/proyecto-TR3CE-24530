@@ -1,7 +1,5 @@
 .footer {
     background-image: linear-gradient(to top, #ffffff, #000000);
-    position: sticky;
-    height: 5vh;
 
     .footer__copy {
         display: flex;
@@ -10,5 +8,10 @@
         border: solid 0.5vh #313638;
         font-weight: bold;
         overflow: hidden;
+        &:hover{
+            color: #000000;
+            background-color: #5e0909;
+            border: #000000 dashed;
+        }
     }
 }
