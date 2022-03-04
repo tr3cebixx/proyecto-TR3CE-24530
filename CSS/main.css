@@ -20,6 +20,7 @@ body {
     text-align: center;
     padding-bottom: 1vh;
     width: 50vw;
+    margin: 1em 0;
     transition: all; }
     .icon__div .row .icons:hover {
       background-image: linear-gradient(to top, #aaaaaa, #000000); }
@@ -119,7 +120,8 @@ h3 {
       transition: all; }
 
 .footer {
-  background-image: linear-gradient(to top, #ffffff, #000000); }
+  background-image: linear-gradient(to top, #ffffff, #000000);
+  padding-top: 2em; }
   .footer .footer__copy {
     display: flex;
     justify-content: center;
