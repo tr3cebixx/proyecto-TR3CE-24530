@@ -1,8 +1,8 @@
 .main__p {
-    display: inline;
-    color: #d9d2b6;
+    color: black;
     font-style: oblique;
     text-align: center;
+    font-size: 1.8rem;
 }
 
 @mixin titulos ($color, $fontsize) {
@@ -12,10 +12,17 @@
     text-align: center;
     text-decoration: solid;
     font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    transition: all;
+    &:hover{
+        color: #5e0909;
+        text-decoration: underline;
+    }
 }
 
 h1 {
-    @include titulos(#6737c2, 3rem)
+    @include titulos(#6737c2, 3rem);
 }
 
 h2 {

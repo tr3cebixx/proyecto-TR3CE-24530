@@ -13,10 +13,10 @@ $color__redes: (redes__wp: #25D366,
 $color in $color__redes {
     .#{$app} {
         color: $color;
-        transition: all 2s;
+        transition: all 1s;
 
         &:hover {
-            transform: scale(1.5) translate(0, 2em);
+            transform: scale(1.3);
         }
     }
 }

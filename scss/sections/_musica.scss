@@ -1,21 +1,17 @@
 .music__frames {
     display: flex;
-    margin: 2%;
-    padding: 2%;
+    margin: auto;
     flex-direction: column;
-    align-items: center;
-    width: 40vw;
+    align-items: space-evenly;
 
     .music__yt {
         background-color: #ff0000;
-        margin: 1%;
-        padding: 1%;
+        margin-bottom: 2em;
     }
 
     .music__spot {
         background-color: #1DB954;
-        margin: 1%;
-        padding: 1%;
+        margin-bottom: 2em;
     }
 
 }
